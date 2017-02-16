@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear_"
+    android:clickable="false">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment4"
+    android:name="com.example.ronakpc.gamelogin.GridActivityFragment"
+    tools:layout="@layout/grid_main" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment5"
+        android:name="com.example.ronakpc.gamelogin.GridActivityFragment"
+        tools:layout="@layout/grid_score" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/fragment3"
+    android:name="com.example.ronakpc.gamelogin.GridActivityFragment"
+    tools:layout="@layout/grid_fragment" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     />
+
+
+
+</LinearLayout>
